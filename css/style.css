@@ -1,0 +1,194 @@
+*{
+	margin:0;
+	padding-top: 5px;
+	padding: 0;
+}
+#first{
+	background-image: url("../image/ckground.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+
+}
+
+.jumbotron_1{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 50px 0 50px;
+	color: inherit;
+	background-color: transparent;
+}
+.jumbotron_1 h1 {
+    font-size: 55px;
+    color: #fff;
+padding-top: 80px;
+s}
+.jumbotron_1 h1 span {
+	color: #f7600e;
+
+}
+.jumbotron_1 p {
+    margin-bottom: 15px;
+    font-size: 28px;
+    
+    color: #fff;
+padding-top: 40px;
+}
+
+
+.button_hire{
+  	color:#fff;
+  	background-color:#f7600e;
+  	border-color: #f76003;
+  	border-radius: :5px 20px;
+  	padding: 7px 45px;
+	font-size: 20px;
+	margin-bottom: 22px; }
+.button_hire:hover{
+  	color:#f7600e;
+  	background-color: #fff;
+  	border-color: #fff;
+  	border-radius: :5px 20px;
+  }
+
+.overlay_1{
+	background-color: rgba(0,0,0,.5);
+}
+/* Section 2 */
+#second{padding: 50px 0;}
+
+.our_works{
+text-align: center;
+width: 40%;
+margin: 0 auto;
+padding: 30px;
+
+}
+
+.image_content img:hover{
+	width: 90%;
+	height: 90%;
+	
+	-webkit-transition: .5s all;   
+    -webkit-transition-delay: 5s; 
+    -moz-transition: .5s all;   
+    -moz-transition-delay: 5s; 
+    -ms-transition: .5s all;   
+    -ms-transition-delay: 5s; 
+    -o-transition: .5s all;   
+    -o-transition-delay: 5s; 
+    transition: .5s all;   
+    transition-delay: .5s;
+
+}
+span{ color:#f76003; margin: 0 auto; }
+
+.row{
+	margin-top: 70px;
+}
+.workimg{
+	
+	border-radius: 5px 5px;
+
+}
+.thumbnail{
+	border:none;
+}
+
+.btn-default{
+	padding: 11px 37px;
+}
+
+
+.team{
+	text-align: center;
+margin-top: 50px;}
+
+.team h3{
+	text-transform: uppercase;
+
+}
+.team img{
+	width: 80%;
+	height: 80%;
+
+}
+
+.team img:hover{
+	width: 90%;
+	height: 90%;
+	border-bottom: 3px solid #f7600e;
+	-webkit-transition: .5s all;   
+    -webkit-transition-delay: 5s; 
+    -moz-transition: .5s all;   
+    -moz-transition-delay: 5s; 
+    -ms-transition: .5s all;   
+    -ms-transition-delay: 5s; 
+    -o-transition: .5s all;   
+    -o-transition-delay: 5s; 
+    transition: .5s all;   
+    transition-delay: .1s; 
+}
+.contact{
+text-align: center;
+width: 40%;
+margin: 0 auto;
+
+}
+.floatright{float: right;margin-right: -371px;}
+p{font-size: 20px;}
+#forth{
+	background-image: url("../image/ckground.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+
+}
+.margin-top-form{ padding-top: 10px; }
+
+.form-button{text-align: center;}
+.msgheight{
+	height: 120px;
+}
+
+#fifth{
+	padding: 15px 0 40px;
+	background-color: #3b434c;
+	color: #fff;
+}
+
+
+
+@media only screen and (max-width:480px)
+
+
+{.jumbotron_1 h1 {
+	padding-top: 0px;
+    font-size: 30px;}
+
+.jumbotron_1 p {
+    font-size: 20px;}
+
+
+.jumbotron_1{
+	padding-top: 0px;
+	padding-bottom: 30px;
+	margin:0px;
+}
+h1{font-size: 25px;}
+p{font-size: 15px;
+}
+
+.our_works{
+width: 90%;
+}
+.contact{
+width: 90%;
+}
+.button_hire{
+  	padding: 9px 26px;
+	font-size: 15px;
+
+	}
+.floatright{float: right;margin-right: 0px;}
+}
